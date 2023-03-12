@@ -118,11 +118,11 @@ background-color:#fafbff;
 
 div.videos{
 width: 1000px;
-border: solid, 10px, black;
 position: relative;
 width: 80%;
 margin: auto;
 margin-top: 50px;
+height: 1200px;
 }
 
 .video1{
@@ -163,6 +163,21 @@ margin: 10, 10, 10, 10;
 position: absolute;
 left: 0;
 top: 800px;
+}
+
+div.youtube{
+width: 1000px;
+border: solid 10px white;
+position: relative;
+width: 80%;
+margin: auto;
+margin-top: 50px;
+}
+
+.youtube1{
+	position: absolute;
+	top: o;
+	left: 10%;
 }
 
 div.footer{
