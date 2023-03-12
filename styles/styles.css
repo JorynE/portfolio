@@ -166,8 +166,7 @@ top: 800px;
 }
 
 div.youtube{
-width: 1000px;
-border: solid 10px white;
+width: 800px;
 position: relative;
 width: 80%;
 margin: auto;
@@ -176,7 +175,7 @@ margin-top: 50px;
 
 .youtube1{
 	position: absolute;
-	top: o;
+	top: 0;
 	left: 10%;
 }
 
