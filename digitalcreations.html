@@ -3,21 +3,10 @@
   <head>
     <title>&lt;model-viewer&gt; template</title>
     <meta charset="utf-8">
-    <meta name="description" content="&lt;model-viewer&gt; template">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Digital Creations</title>
-    <link type="text/css" href="assets/styles.css" rel="stylesheet"/>
-    <!-- OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
-    <script src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js" defer></script>
+    <link rel="stylesheet" href="styles\styles.css">
   </head>
-<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
-<style>
-model-viewer{
-    width: 400px;
-    height: 300px;
-    margin: 0 auto;
-}
-</style>
+
 
 <body>
 <div class="pageselect">
@@ -34,21 +23,8 @@ model-viewer{
 
 <div class="title"><h1> Digital Creations</h1></div>
 
-<!-- <model-viewer> HTML element -->
-    <model-viewer src="assets/molecule.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" camera-orbit="90.94deg 82.86deg 5.883m" field-of-view="30deg">
-      <div class="progress-bar hide" slot="progress-bar">
-          <div class="update-bar"></div>
-      </div>
-      <button slot="ar-button" id="ar-button">
-          View in your space
-      </button>
-      <div id="ar-prompt">
-          <img src="assets/ar_hand_prompt.png">
-      </div>
-    </model-viewer>  
-    <script src="assets/script.js"></script>
-    <!-- Loads <model-viewer> for browsers: -->
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+<div class="molecule">
+<a href="assets/molecule.html"><img src="assets/poster.webp"></a>
 
 <div class="footer">
 <h1>Contact Me</h1>
