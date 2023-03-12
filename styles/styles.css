@@ -71,7 +71,7 @@ margin: auto;
 }
 
 .portrait01{
-height: 600px;
+width: 30%;
 border:solid 8px #fafbff;
 border-radius: 10px;
 position: absolute;
@@ -80,16 +80,16 @@ top: 0;
 }
 
 .portrait02{
-height: 600px;
+width: 30%;
 border:solid 8px #fafbff;
 border-radius: 10px;
 position: absolute;
-left: 36%;
+left: 34.5%;
 top: 0px;
 }
 
 .portrait03{
-height: 600px;
+width: 30%;
 border:solid 8px #fafbff;
 border-radius: 10px;
 position: absolute;
