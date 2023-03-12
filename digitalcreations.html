@@ -1,26 +1,38 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+
     <title>Digital Creations</title>
     <link rel="stylesheet" href="styles\styles.css">
 </head>
-<body>
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+<style>
+model-viewer{
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+}
+</style>
 
+<body>
 <div class="pageselect">
-<a href="https://joryne.github.io/portfolio/">
+<a href="\index.html">
 <button><h2>Photography</h2></button>
 </a>
-<a href="https://joryne.github.io/portfolio/video.html">
+<a href="\video.html">
 <button><h2>Video<h2></button>
 </a>
-<a href="https://joryne.github.io/portfolio/digitalcreations.html">
+<a href="\digitalcreations.html">
 <button><h2>Other Creations<h2></button>
 </a>
 </div>
 
 <div class="title"><h1> Digital Creations</h1></div>
+
+<model-viewer src="molecule.gltf" ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1" camera-orbit="95.43deg 83.61deg 5.883m" field-of-view="30deg"> </model-viewer>
+
 
 <div class="footer">
 <h1>Contact Me</h1>
