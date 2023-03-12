@@ -126,7 +126,7 @@ margin-top: 50px;
 }
 
 .video1{
-width: 600px;
+width: 45%;
 margin: 10, 10, 10, 10;
 position: absolute;
 left: 0;
@@ -134,7 +134,7 @@ top: 0;
 }
 
 .video2{
-width: 600px;
+width: 45%;
 margin: 10, 10, 10, 10;
 position: absolute;
 right: 0;
@@ -142,7 +142,7 @@ top: 0;
 }
 
 .video3{
-width: 600px;
+width: 45%;
 margin: 10, 10, 10, 10;
 position: absolute;
 left: 0;
@@ -150,7 +150,7 @@ top: 400px;
 }
 
 .video4{
-width: 600px;
+width: 45%;
 margin: 10, 10, 10, 10;
 position: absolute;
 right: 0;
@@ -158,7 +158,7 @@ top: 400px;
 }
 
 .video5{
-width: 600px;
+width: 45%;
 margin: 10, 10, 10, 10;
 position: absolute;
 left: 0;
