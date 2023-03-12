@@ -174,7 +174,12 @@ margin-top: 50px;
 .youtube1{
 	position: absolute;
 	top: 0;
-	left: 10%;
+	left: 5%;
+}
+.youtube2{
+	position: absolute;
+	top: 0;
+	right: 5%;
 }
 
 div.footer{
