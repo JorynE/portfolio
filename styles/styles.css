@@ -1,12 +1,12 @@
 body{
-background-color: #fff2f1;
+background-color: #cfced6;
 text-align: middle;
 font-family: helvetica;
 color: #616161;
 }
 
 div.title{
-background-color: #fafbff;
+background-color: #F2E9E8;
 text-align: center;
 padding: 100px 100px 50px 100px;
 color: #616161;
@@ -29,7 +29,7 @@ margin-bottom: 50px;
 }
 
 .landscape01{
-border:solid 8px #fafbff;
+border:solid 8px #F2E9E8;
 border-radius: 10px;
 width: 45%;
 position: absolute;
@@ -38,7 +38,7 @@ top:0;
 }
 
 .landscape02{
-border:solid 8px #fafbff;
+border:solid 8px #F2E9E8;
 border-radius: 10px;
 width: 45%;
 position: absolute;
@@ -47,7 +47,7 @@ top: 0px;
 }
 
 .landscape03{
-border:solid 8px #fafbff;
+border:solid 8px #F2E9E8;
 border-radius: 10px;
 width: 45%;
 position: absolute;
@@ -56,7 +56,7 @@ bottom: 0;
 }
 
 .landscape04{
-border:solid 8px #fafbff;
+border:solid 8px #F2E9E8;
 border-radius: 10px;
 width: 45%;
 position: absolute;
@@ -72,7 +72,7 @@ margin: auto;
 
 .portrait01{
 width: 30%;
-border:solid 8px #fafbff;
+border:solid 8px #F2E9E8;
 border-radius: 10px;
 position: absolute;
 left: 0;
@@ -81,7 +81,7 @@ top: 0;
 
 .portrait02{
 width: 30%;
-border:solid 8px #fafbff;
+border:solid 8px #F2E9E8;
 border-radius: 10px;
 position: absolute;
 left: 34.5%;
@@ -90,7 +90,7 @@ top: 0px;
 
 .portrait03{
 width: 30%;
-border:solid 8px #fafbff;
+border:solid 8px #F2E9E8;
 border-radius: 10px;
 position: absolute;
 right: 0;
@@ -103,12 +103,12 @@ top: 50px;
 left: 50%;
 transform: translate(-50%, -50%);
 width: 500;
-background-color:#fafbff;
+background-color:#F2E9E8;
 border-radius: 15px;
 }
 
 button{
-background-color:#fafbff;
+background-color:#F2E9E8;
 	color: #616161;
 	border: solid 0px #616161;
 	margin-left: 20px;
@@ -182,13 +182,62 @@ margin-top: 50px;
 	right: 5%;
 }
 
+div.models{
+	position:relative;
+	width: 80%;
+	margin: auto;
+	height: 1200px;
+	margin-top:100px;
+	margin-bottom: 50px;
+}
+
+div.molecule{
+	position: absolute;	
+	background-color: #F2E9E8;
+	top: 0;
+	left: 0;
+	text-align: center;
+	width: 40%
+}
+
+div.head{
+	position: absolute;	
+	background-color: #F2E9E8;
+	top: 0;
+	right: 0;
+	text-align: center;
+	width: 40%;
+}
+
+div.twoscoops{
+	position: absolute;
+	bottom: 0px;
+	width: 50%;
+	left: 50%;
+	transform: translate(-50%);
+}
+
 div.footer{
 position: absolute;
 bottom: -1400px;
-background-color: #fafbff;
+background-color: #F2E9E8;
 text-align: center;
 padding: 100px 100px 50px 100px;
 color: #616161;
 margin: auto;
-width: 87%;
+width: 88%;
+left: 50%;
+	transform: translate(-50%);
+}
+
+div.footer-digitalcreations{
+position: absolute;
+bottom: -100%;
+background-color: #F2E9E8;
+text-align: center;
+padding: 100px 100px 50px 100px;
+color: #616161;
+width: 88%;
+left: 50%;
+	transform: translate(-50%);
 }
