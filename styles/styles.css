@@ -1,12 +1,35 @@
+:root {
+    --primary: #cfced6;
+    --secondary: #F2E9E8;
+	--text: #616161;
+	--primary-dark: #2f2828;
+    --secondary-dark: #F2E9E8;
+	--text-dark: #616161;
+}
+
 body{
-background-color: #cfced6;
+background-color: var(--primary);
 text-align: middle;
 font-family: helvetica;
-color: #616161;
+color: var(--text);
+}
+
+.dark-mode_button{
+	position: fixed;
+	top: 40px;
+	right: 10px;
+	border: solid 5px;
+	border-color: var(--secondary);
+	border-radius: 5px;
+}
+
+.dark-mode {
+  background-color: var(--primary-dark);
+  color: var(--text-dark);
 }
 
 div.title{
-background-color: #F2E9E8;
+background-color: var(--secondary);
 text-align: center;
 padding: 100px 100px 50px 100px;
 color: #616161;
@@ -14,22 +37,18 @@ margin: auto;
 border-radius: 0px, 15px, 15px, 0px;
 }
 
-
-figure{
-
-}
-
 div.images{
 position: relative;
 width: 80%;
 margin: auto;
 height: 950px;
-margin-top:100px;
+margin-top:50px;
 margin-bottom: 50px;
 }
 
 .landscape01{
-border:solid 8px #F2E9E8;
+border:solid 8px;
+border-color: var(--secondary);
 border-radius: 10px;
 width: 45%;
 position: absolute;
@@ -95,6 +114,24 @@ border-radius: 10px;
 position: absolute;
 right: 0;
 top: 0;
+}
+
+.portrait04{
+width: 45%;
+border:solid 8px #F2E9E8;
+border-radius: 10px;
+position: absolute;
+left: 0;
+top: 720px;
+}
+
+.portrait05{
+width: 45%;
+border:solid 8px #F2E9E8;
+border-radius: 10px;
+position: absolute;
+right: 0;
+top: 720px;
 }
 
 div.pageselect{
@@ -164,6 +201,14 @@ left: 0;
 top: 800px;
 }
 
+.video6{
+width: 45%;
+margin: 10, 10, 10, 10;
+position: absolute;
+right: 0;
+top: 800px;
+}
+
 div.youtube{
 position: relative;
 width: 70%;
@@ -219,7 +264,7 @@ div.twoscoops{
 
 div.footer{
 position: absolute;
-bottom: -1400px;
+bottom: -250%;
 background-color: #F2E9E8;
 text-align: center;
 padding: 100px 100px 50px 100px;
@@ -239,5 +284,5 @@ padding: 100px 100px 50px 100px;
 color: #616161;
 width: 88%;
 left: 50%;
-	transform: translate(-50%);
+transform: translate(-50%);
 }
