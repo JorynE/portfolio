@@ -280,11 +280,19 @@ div.renders{
 	transform: translate(-50%);
 }
 
+.bubbles{
+	position: absolute;
+	top: 850px;
+	width: 80%;
+	left: 50%;
+	transform: translate(-50%);
+}
+
 .blend1{
 	width: 40%;
 	position: absolute;
 	left: 50px;
-	bottom: -700px;
+	bottom: -1400px;
 	border-radius: 10px;
 }
 
@@ -292,7 +300,7 @@ div.renders{
 	width: 40%;
 	position: absolute;
 	right: 50px;
-	bottom: -700px;
+	bottom: -1400px;
 	border-radius: 10px;
 }
 
@@ -311,7 +319,7 @@ left: 50%;
 
 div.footer-digitalcreations{
 position: absolute;
-bottom: -140%;
+bottom: -220%;
 background-color: #F2E9E8;
 text-align: center;
 padding: 100px 100px 50px 100px;
